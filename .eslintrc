@@ -1,0 +1,17 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2023,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-undef": "off",
+    "sort-keys": "warn",
+    "semi": [1, "always"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended"]
+}

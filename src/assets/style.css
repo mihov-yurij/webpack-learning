@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: brown;
+  flex-direction: column;
+}
+
+.code {
+  color: blue;
+  font-size: 25px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
