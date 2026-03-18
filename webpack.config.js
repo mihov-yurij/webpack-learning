@@ -71,9 +71,12 @@ module.exports = {
     main: './src/index.jsx',
     stat: './src/statistics.ts'
   },
+
+
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: getFileName('js')
+    filename: getFileName('js'),
+  
   },
   optimization: optimization(),
   target: 'web',
